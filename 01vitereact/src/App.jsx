@@ -1,6 +1,10 @@
+import File1 from "./file1"
+
 function App() {
-  return (
-    <h1>Hii</h1>
+  return (<>
+    <File1 />
+    <p>Hello I am directly from app.jsx</p>
+  </>
   )
 }
 
